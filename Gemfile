@@ -27,7 +27,12 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use Unicorn as the app server
-# gem 'unicorn'
+gem 'unicorn'
+gem 'mina-sidekiq', :require => false
+gem 'mina-unicorn', :require => false
+
+#User Mima For deployment
+gem 'mina'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
