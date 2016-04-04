@@ -33,6 +33,12 @@ gem 'devise'
 gem 'omniauth-oauth2','~> 1.3.1'
 gem 'omniauth-facebook'
 
+# AngularJS
+gem 'angularjs-rails'
+source "https://rails-assets.org" do
+  gem "rails-assets-angular-devise"
+end
+
 # Use Unicorn as the app server
 gem 'unicorn'
 gem 'sidekiq'
