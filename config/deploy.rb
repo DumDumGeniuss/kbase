@@ -12,7 +12,7 @@ require 'mina/unicorn'
 #   repository   - Git repo to clone from. (needed by mina/git)
 #   branch       - Branch name to deploy. (needed by mina/git)
 
-set :domain, '139.59.247.151'
+set :domain, '188.166.182.182'
 set :deploy_to, '/home/deployer/kbase'
 set :repository, 'git@github.com:DumDumGeniuss/kbase.git'
 set :branch, 'master'
