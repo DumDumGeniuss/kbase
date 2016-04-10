@@ -1,6 +1,6 @@
 #index-page{
   .web-logo{
-    width:100%;
+    width:600px;
     z-index:-1;
     animation-name:logo-move;
     animation-duration:2s;
@@ -17,12 +17,50 @@
   }
 
   #block2{
-	background-color:#0A6079 !important;
-	color:white;
+    margin-top:-20px;
+	#color:white;
+    background-color: #D27474 ;
+  }
+
+  #block2-title{
+    font-size:4.5em;
+    font-family: TimesNewRoman,"Times New Roman",Times,Baskerville,Georgia,serif;
   }
 
   .logo-img-block{
   }
 
+  .app-show-div{
+    height:300px;
+  }
+
+  .app-show-div-odd{
+	background-color:#21BFA2;
+  }
+  .app-show-div-even{
+	background-color:#D6895B;
+  }
+
+  .app-logo-left{
+    margin-top:25px;
+    float:left;
+    height:250px;
+  }
+
+  .app-logo-right{
+    margin-top:25px;
+    float:right;
+    height:250px;
+  }
+
+  .app-logo-anim{
+    animation-name:app-logo-move;
+    animation-duration:3s;
+  }
+
+  @keyframes app-logo-move{
+    0%{height:0px;opacity:0;}
+    100%{height:250px;opacity:1;}
+  }
 
 }
