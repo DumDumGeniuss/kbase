@@ -46,7 +46,7 @@ gem 'mina-sidekiq', :require => false
 gem 'mina-unicorn', :require => false
 
 #User Mima For deployment
-gem 'mina'
+gem 'mina', github: 'nadarei/mina'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
