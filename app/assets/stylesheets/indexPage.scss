@@ -1,0 +1,28 @@
+#index-page{
+  .web-logo{
+    width:100%;
+    z-index:-1;
+    animation-name:logo-move;
+    animation-duration:2s;
+  }
+
+  @keyframes logo-move{
+    0%   {margin-left:-900px;}
+    50%  {margin-left:100px;}
+    100% {margin-left:0px;}
+  }
+
+  #block1{
+    background-image: url(image-path('universe.gif'));
+  }
+
+  #block2{
+	background-color:#0A6079 !important;
+	color:white;
+  }
+
+  .logo-img-block{
+  }
+
+
+}
