@@ -1,0 +1,21 @@
+<ul>
+  <li>	
+    <a href="/users/auth/facebook" ng-hide="loginOrNot" class="btn btn-social btn-md btn-primary">
+      <i class="fa fa-facebook-official fa-lg"> FaceBook</i>
+    </a>
+    <a ng-click="signOut()" ng-show="loginOrNot" class="btn btn-md btn-warning">
+      Logout
+    </a>
+  </li>  
+  <li ng-show="loginOrNot" >	
+    <a ng-click="getInfo()" class="btn btn-lg btn-success">
+      Info
+    </a>
+    {{userInfo}}
+  </li>  
+  <li ng-show="loginOrNot" >	
+    <button  ng-click="updateUserInfo()" class="btn btn-danger">Update User Info</button>
+    User Name({{userData.user_name}}):<input ng-model="userName"></input>
+    Robot Name({{userData.robot_name}}):<input ng-model="robotName"></input>
+  </li>  
+</ul>

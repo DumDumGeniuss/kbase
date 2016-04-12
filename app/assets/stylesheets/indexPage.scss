@@ -41,6 +41,9 @@
 	background-color:#D6895B;
   }
 
+  .app-logo{
+  }
+
   .app-logo-left{
     margin-top:25px;
     float:left;
@@ -54,6 +57,7 @@
   }
 
   .app-logo-anim{
+    display:initial;
     animation-name:app-logo-move;
     animation-duration:3s;
   }

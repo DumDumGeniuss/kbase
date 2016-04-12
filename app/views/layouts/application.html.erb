@@ -5,7 +5,7 @@
   <title>Kbase</title>
   <%= stylesheet_link_tag    'application', media: 'all' %>
   <%= javascript_include_tag 'application' %>
-  <%= csrf_meta_tags %>
+  <% #csrf_meta_tags %>
 </head>
 <body>
   <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -13,14 +13,13 @@
       <div class="navbar-header">
       	<button id="navbar-button" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#my-nav-bar">
           <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="#">KnowledgeBase</a>
       </div>
       <div class="collapse navbar-collapse" id="my-nav-bar">
         <ul class="nav navbar-nav">
           <li><a href="#">Home</a></li>
-          <li><a href="#">Page 1</a></li>
+          <li><a href="#/login">Login</a></li>        
         </ul>
       </div>
     </div>
